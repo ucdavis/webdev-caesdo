@@ -1,0 +1,6 @@
+header {
+	.header_contents {
+		@include inner-content;
+		text-align:center;
+	}
+}
