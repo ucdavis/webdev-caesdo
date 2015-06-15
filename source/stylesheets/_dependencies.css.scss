@@ -11,7 +11,7 @@
 	$secondary-font: 	#5a585c; // p,li color in portlet/sidebar
 	$tertiary-font:		#9b9b9b; // summary, discreet
 	
-	$bg-color:			#EDEAE3; // background
+	$bg-color:			#f8f8f8; // background
 	$borders:			#C8C7CC; // border color
 
 	$ucdavis-blue:		#002855;
@@ -64,7 +64,7 @@
 
 @mixin inner-content {
 	max-width:1200px;
-	width:80%;
+	width:55%;
 	margin:0 auto;
 	min-width:400px;
 }

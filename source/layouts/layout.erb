@@ -19,8 +19,15 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <%= partial "header" %>
-    <%= yield %>
+    <div class="left_col">
+      <div class="left_wrapper">
+            <%= partial "header" %>
+            <%= yield %>
+      </div>  
+    </div>
+    <div class="right_col">
+      test
+    </div>
     <%= partial "footer" %>
 
   </body>

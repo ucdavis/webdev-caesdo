@@ -10,10 +10,12 @@ nav {
 		li {
 			list-style: none;
 			display:inline-block;
+			color:$tertiary-font;
 			a {
 				font-size:1.8rem;
 				font-family:$sans-serif;
 				text-decoration:none;
+				color:$tertiary-font;
 			}
 		}
 	}

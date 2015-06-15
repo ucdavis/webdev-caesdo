@@ -1,17 +1,33 @@
 header {
+	margin-top:4%;
 	.header_contents {
-		@include inner-content;
-		text-align:center;
-		margin:5% auto;
 		img {
-			width:8%;
-			margin-bottom:3%;
+			width:12%;
+			margin-bottom:2%;
 		}
 	}
 }
 .main {
-	@include inner-content;
+	// max-width:550px;
+}
+.right_col {
+	width: 33%;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	min-height: 100%;
+	background-color:$bg-color;
+	border-left:1px solid $borders;
+}
+.left_col{
+	width: 66%;
+	background-color:#fff;
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	min-height:100%;
+}
+.left_wrapper {
 	width:70%;
-	max-width:550px;
-	text-align:left;
+	margin-left:27%;
 }
