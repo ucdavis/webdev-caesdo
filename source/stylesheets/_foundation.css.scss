@@ -3,6 +3,9 @@ header {
 		@include inner-content;
 		text-align:center;
 		margin:5% auto;
+		img {
+			width:8%;
+		}
 	}
 }
 .main {
@@ -10,5 +13,4 @@ header {
 	width:70%;
 	max-width:550px;
 	text-align:left;
-	background-color:orange;
 }

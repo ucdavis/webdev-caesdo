@@ -16,11 +16,15 @@ a {
 	
 }
 ol {
-	li {
-		
+	&.main_list {
+		li {
+			font-family:$sans-serif;
+			font-size:2rem;
+		}
 	}
 }
 ul {
+
 	li {
 
 	}
@@ -31,6 +35,17 @@ p {
 	font-size:1.6rem;
 	font-family:$serif;
 	color:$primary-font;
+	&.timeline {
+		font-size:1.4rem;
+		text-transform:uppercase;
+		margin-bottom:5px;
+		font-family:$sans-serif;
+		color:$tertiary-font;
+	}
+	ol & {
+		font-family:$sans-serif;
+		color:$secondary-font;
+	}
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -44,7 +59,31 @@ h1, h2, h3, h4, h5, h6 {
 h1, .h1 {
 }
 h2, .h2 {
-
+	font-size:2rem;
+	ol & {
+		margin-bottom:0px;
+	}
+	&.section-title {
+		font-size:1.6rem;
+		text-transform:uppercase;
+		color:$tertiary-font;
+		padding-bottom:4px;
+		font-weight:500;
+		margin-bottom:20px;
+		border-bottom:2px solid $borders;
+		&.current {
+			color:$sunny-grass;
+			border-color:$sunny-grass;
+		}
+		&.next {
+			color:$golden-lupine;
+			border-color:$golden-lupine;
+		}
+		&.future {
+			color:$unitrans-red;
+			border-color:$unitrans-red;
+		}
+	}
 }
 h3, .h3 {
 
