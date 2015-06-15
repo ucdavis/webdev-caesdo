@@ -2,5 +2,13 @@ header {
 	.header_contents {
 		@include inner-content;
 		text-align:center;
+		margin:5% auto;
 	}
+}
+.main {
+	@include inner-content;
+	width:70%;
+	max-width:550px;
+	text-align:left;
+	background-color:orange;
 }
