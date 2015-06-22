@@ -2,7 +2,7 @@ header {
 	margin-top:4%;
 	.header_contents {
 		img {
-			width:12%;
+			width:8%;
 			margin-bottom:2%;
 		}
 	}
@@ -18,6 +18,11 @@ header {
 	min-height: 100%;
 	background-color:$bg-color;
 	border-left:1px solid $borders;
+	.right_col--contents {
+		width:90%;
+		margin-left:8%;
+		margin-top:25%;
+	}
 }
 .left_col{
 	width: 66%;

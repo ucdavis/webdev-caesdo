@@ -1,21 +1,17 @@
 nav {
-	// border-top:1px solid $borders;
-	border-bottom:1px solid $borders;
-	margin:2% auto;
-	width:80%;
-	padding:2%;
+	margin-top:2%;
 	ul {
 		padding-left:0px;
 		margin-bottom:0px;
 		li {
-			list-style: none;
-			display:inline-block;
-			color:$tertiary-font;
+			color:$ucdavis-blue;
+			margin-top:1%;
+			margin-bottom:1%;	
 			a {
-				font-size:1.8rem;
+				font-size:1.6rem;
 				font-family:$sans-serif;
 				text-decoration:none;
-				color:$tertiary-font;
+				color:$secondary-font;
 			}
 		}
 	}
