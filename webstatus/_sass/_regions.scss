@@ -1,0 +1,83 @@
+// homepage
+
+.callout {
+	text-align:center;
+	margin-top:5%;
+	margin-bottom:5%;
+}
+// sections
+// learning materials
+.presentation_div {
+	img {
+		background-color:#000;
+		padding:4px;
+		// border:2px solid $echina-yellow;
+	}
+	min-height:400px;
+}
+// banners:
+.banner {
+	background-color:$echina-teal;
+	height:125px;
+	.banner_contents {
+		@include container;
+
+	}
+}
+.main {
+	padding:4% 0%;
+	.main_contents {
+		@include container;
+	}
+}
+.btn-main {
+	margin-top:2%;
+	margin-bottom:2%;
+}
+.section-header {
+	border-bottom:4px solid $echina-blue;
+	margin-top:6%;
+	margin-bottom:2%;
+	h2 {
+		color:#fff;
+		background-color:$echina-blue;
+		display:inline;
+		padding:10px 16px 6px 16px;
+		margin:0px;
+	}
+}
+.section--yellow {
+	border-bottom:4px solid $echina-yellow;
+	h2 {
+		background-color:$echina-yellow;
+	}
+}
+.section--green {
+	border-bottom:4px solid $echina-green;
+	h2 {
+		background-color:$echina-green;
+	}
+}
+.section--teal {
+	border-bottom:4px solid $echina-teal;
+	h2 {
+		background-color:$echina-teal;
+	}
+}
+.section--red {
+	border-bottom:4px solid $echina-red;
+	h2 {
+		background-color:$echina-red;
+	}
+}
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1; }
+th:first-child,
+td:first-child {
+  padding-left: 0; }
+th:last-child,
+td:last-child {
+  padding-right: 0; }

@@ -1,0 +1,125 @@
+.btn {
+    padding: 14px 30px 12px;
+    margin-top: 2.5%;
+    box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.15) inset;
+    border-radius: 2px;
+    font-family: $sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    &:hover {
+        opacity: .85;
+        color: #fff;
+    }
+}
+
+.btn-yellow {
+    @extend .btn;
+    background-color: $echina-yellow;
+}
+
+.btn-green {
+    @extend .btn;
+    background-color: $echina-green;
+}
+
+.btn-blue {
+    @extend .btn;
+    background-color: $echina-blue;
+}
+
+.btn-red {
+    @extend .btn;
+    background-color: $echina-red;
+}
+
+.btn-teal {
+    @extend .btn;
+    background-color: $echina-teal;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.echina-teal {
+    color: #0ca2bb;
+}
+
+.echina-yellow {
+    color: #ffaf34;
+}
+
+.echina-red {
+    color: #E05D41;
+}
+
+.echina-green {
+    color: #ACC73C;
+}
+
+.echina-blue {
+    color: #1676b0;
+}
+
+.limited-text {
+    max-width: 70rem;
+    ;
+    margin: 0 auto;
+}
+
+.float-right {
+    float: right;
+}
+
+.bg-yellow {
+    background-color: $echina-yellow !important;
+}
+
+.bg-red {
+    background-color: $echina-red !important;
+}
+
+.bg-teal {
+    background-color: $echina-teal !important;
+}
+
+.bg-blue {
+    background-color: $echina-blue !important;
+}
+
+.bg-green {
+    background-color: $echina-green !important;
+}
+
+ul.sectionul {
+    padding-left: 0px;
+    background-color: purple;
+    li {
+        display: inline-block;
+        width: 30%;
+        background-color: green;
+        vertical-align: top;
+        a {}
+    }
+}
+ul.fance_list {
+    li {
+        list-style-type: none;
+    }
+}
+
+hr {
+    border-top: 1px solid $borders;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+
+iframe.iframe_tools {
+    width: 100%;
+    height: 1000px;
+}
