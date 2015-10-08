@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="site-title" href="/">UC Davis CA&amp;ES CRU Web developers</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -14,11 +14,12 @@
       </a>
 
       <div class="trigger">
-        {% for page in site.pages %}
+      <a class="page-link" target="_blank" href="http://computing.caes.ucdavis.edu">Computing</a>
+        <!-- {% for page in site.pages %}
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
-        {% endfor %}
+        {% endfor %} -->
       </div>
     </nav>
 
